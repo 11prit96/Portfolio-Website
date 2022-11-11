@@ -37,7 +37,7 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Prithwish Singha</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-teal-100">Web Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">Freelancer providing services for programming websites. Join me down below and let's work.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">Freelancer providing services for programming websites. Join me down below and let us work.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://twitter.com/be_like_prit"><AiFillTwitterCircle className="cursor-pointer hover:bg-cyan-600 rounded-full" /></a>
@@ -45,7 +45,7 @@ export default function Home() {
             <a href='https://github.com/11prit96'><AiFillGithub className="cursor-pointer hover:bg-red-500 rounded-full" /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 xs:w-70 xs:h-70">
-            <Image src={GuyAnimated} layout="fill" objectFit="cover" />
+            <Image src={GuyAnimated} layout="fill" objectFit="cover" alt='developer-guy'/>
           </div>
         </section>
 
@@ -54,14 +54,14 @@ export default function Home() {
         <section>
           <div className="mt-10">
             <h3 className="text-3xl py-1 dark:text-teal-100">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">Since the beginning of my journey as a freelance designer and developer, I've collaborated with people on making dynamic responsive websites for both business and consumer use.</p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">Since the beginning of my journey as a freelance designer and developer, I have collaborated with people on making dynamic responsive websites for both business and consumer use.</p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">I offer a wide range of services, including brand design, programming and teaching.</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300">
             <div className="md:flex lg:flex justify-evenly flex-wrap">
-              <Image src={design1} width={350} height={350} className="p-2 rounded-xl" />
-              <Image src={design2} width={350} height={350} className="p-2 rounded-xl" />
-              <Image src={design3} width={350} height={350} className="p-2 rounded-xl" />
+              <Image src={design1} width={350} height={350} className="p-2 rounded-xl" alt='websiteimg1'/>
+              <Image src={design2} width={350} height={350} className="p-2 rounded-xl" alt='websiteimg2'/>
+              <Image src={design3} width={350} height={350} className="p-2 rounded-xl" alt='websiteimg3'/>
             </div>
             <div className="md:flex justify-between mx-5">
               <div>
@@ -94,11 +94,11 @@ export default function Home() {
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
             I am quietly confident , naturally curious, and perpetually working on improving my skills one problem at a time.
           </p>
-          <Image src={aboutImg} width={400} height={400} className="rounded-lg" />
+          <Image src={aboutImg} width={400} height={400} className="rounded-lg" alt='aboutMe'/>
 
           <h3 className="text-3xl py-3 mt-10 dark:text-teal-100">Contact Me</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-            I am interested in freelance opportunities-especially ambitious on large projects. However, if you have any other request or question, don't hesitate to contact me using the below form either.
+            I am interested in freelance opportunities-especially ambitious on large projects. However, if you have any other request or question, do not hesitate to contact me using the below form either.
           </p>
           <form className="shadow-lg p-10 rounded-xl mt-10 dark:bg-gray-300">
             <ul>
